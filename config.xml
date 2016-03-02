@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="net.practisis.dashboard" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-<name>NubePos</name>
+<name>Fabricio</name>
     <description>
-        El futuro del comercio.
+        El futuro des servicio a domicilio.
     </description>
-    <author email="info@practisis.com" href="http://practisis.net">
-        Practisis S.A.
+    <author email="fabriciocattion18@outlook.com.com" href="http://elefectivo.eshost.com.ar/market">
+         elefectivo.eshost.com.ar
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
