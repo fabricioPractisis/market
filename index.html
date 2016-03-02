@@ -18,6 +18,25 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css' />
 <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+<script>
+	var sync = ContentSync.sync({ src: 'http://myserver/assets/movie-1', id: 'movie-1' });
+ 
+sync.on('progress', function(data) {
+    // data.progress 
+});
+ 
+sync.on('complete', function(data) {
+    // data.localPath 
+});
+ 
+sync.on('error', function(e) {
+    // e 
+});
+ 
+sync.on('cancel', function() {
+    // triggered if event is cancelled 
+});
+</script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
